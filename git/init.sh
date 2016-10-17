@@ -14,4 +14,4 @@ then
 fi
 
 echo "$USER:$PASSWORD" | chpasswd
-cat /patch | patch -p0
+cat /root/patch | patch -p0
