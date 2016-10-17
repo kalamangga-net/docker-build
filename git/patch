@@ -1,0 +1,12 @@
+--- /etc/apache2/sites-available/000-default.conf	2016-07-05 21:22:01.000000000 +0000
++++ /etc/apache2/sites-available/new-default.conf	2016-10-17 08:24:24.588960583 +0000
+@@ -9,7 +9,7 @@
+ 	#ServerName www.example.com
+ 
+ 	ServerAdmin webmaster@localhost
+-	DocumentRoot /var/www/html
++	DocumentRoot /usr/share/gitweb
+ 
+ 	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+ 	# error, crit, alert, emerg.
+
