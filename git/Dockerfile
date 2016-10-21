@@ -3,9 +3,7 @@ MAINTAINER Kalamangga.Net R&D
 RUN apt-get update && \
     apt-get install -y openssh-server git gitweb && \
     apt-get clean
-ADD init.sh /root
-ADD patch /root
-ADD service.sh /root
+ADD root.tar /root
 RUN /bin/bash /root/init.sh
 EXPOSE 80
 EXPOSE 22
