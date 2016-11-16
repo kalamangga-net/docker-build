@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:wheezy
 MAINTAINER Kalamangga.Net R&D
 COPY sources.list /etc/apt/
 RUN apt-get update && \
