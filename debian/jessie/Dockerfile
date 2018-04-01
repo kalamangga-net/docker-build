@@ -1,6 +1,6 @@
 FROM debian:jessie
 MAINTAINER Kalamangga.Net R&D
-COPY sources.list /etc/apt/
+#COPY sources.list /etc/apt/
 RUN apt-get update && \
     apt-get upgrade -y --force-yes && \
     apt-get clean -y --force-yes

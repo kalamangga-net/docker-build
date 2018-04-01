@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM debian:stretch
 MAINTAINER Kalamangga.Net R&D
 #COPY sources.list /etc/apt/
 RUN apt-get update && \
