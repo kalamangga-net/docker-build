@@ -1,0 +1,11 @@
+--- /etc/php/7.3/apache2/php.ini	2021-02-13 23:31:40.000000000 +0700
++++ php.ini	2021-06-25 18:22:49.534912766 +0700
+@@ -942,6 +942,8 @@
+ ;extension=xmlrpc
+ ;extension=xsl
+ 
++extension=mcrypt.so
++
+ ;;;;;;;;;;;;;;;;;;;
+ ; Module Settings ;
+ ;;;;;;;;;;;;;;;;;;;
