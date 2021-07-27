@@ -1,10 +1,10 @@
-all: debian git apache2php73
+all: 0debian 1git 2apache2php73
 
-debian:
+0debian:
 	cd debian && $(MAKE)
 
-git:
+1git:
 	cd git && $(MAKE)
 
-apache2php73:
+2apache2php73:
 	cd apache2-php7.3 && $(MAKE)
