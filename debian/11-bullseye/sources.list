@@ -1,0 +1,3 @@
+deb http://repo.kalamangga.net/debian-security stretch/updates main
+deb http://repo.kalamangga.net/debian/ stretch-updates main
+deb http://repo.kalamangga.net/debian/ stretch main
