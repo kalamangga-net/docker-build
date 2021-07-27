@@ -7,4 +7,4 @@ git:
 	cd git && $(MAKE)
 
 apache2php73:
-	cd apache2-php73 && $(MAKE)
+	cd apache2-php7.3 && $(MAKE)
