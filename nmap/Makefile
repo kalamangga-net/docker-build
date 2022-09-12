@@ -1,7 +1,7 @@
 all: build tag push
 
 build:
-	docker build -t kalamangga/debian-nmap:10 --rm .
+	docker build -t kalamangga/nmap:10 --rm .
 
 tag:
 	docker tag kalamangga/nmap:10 kalamangga/nmap:latest
