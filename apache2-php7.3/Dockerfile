@@ -1,5 +1,6 @@
 FROM kalamangga/debian:buster
-RUN apt-get install -y libapache2-mod-php7.3 php-mysql php-dev libmcrypt-dev php-pear \
+RUN apt-get update && \
+    apt-get install -y libapache2-mod-php7.3 php-mysql php-dev libmcrypt-dev php-pear \
                        php-gd php-apcu && \
     apt-get clean
 RUN pecl channel-update pecl.php.net && \
