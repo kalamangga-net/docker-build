@@ -1,4 +1,7 @@
-all: bullseye buster stretch
+all: bookworm bullseye buster
+
+bookworm:
+	cd 12-bookworm && $(MAKE)
 
 bullseye:
 	cd 11-bullseye && $(MAKE)
