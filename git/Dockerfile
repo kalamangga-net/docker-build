@@ -1,4 +1,4 @@
-FROM kalamangga/debian:10
+FROM kalamangga/debian:11
 MAINTAINER Kalamangga.Net R&D
 RUN apt-get update && \
     apt-get install -y --force-yes openssh-server git gitweb && \
