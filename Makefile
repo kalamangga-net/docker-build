@@ -1,12 +1,10 @@
-all: 0debian 1git 2apache2php73 3nginx 4nmap
+all: 0debian 1git 2nginx 3nmap
 
 0debian:
 	cd debian && $(MAKE)
 1git:
 	cd git && $(MAKE)
-2apache2php73:
-	cd apache2-php7.3 && $(MAKE)
-3nginx:
+2nginx:
 	cd nginx && $(MAKE)
-4nmap:
+3nmap:
 	cd nmap && $(MAKE)
