@@ -1,5 +1,5 @@
 FROM debian:bookworm
-MAINTAINER Kalamangga.Net R&D
+LABEL MAINTAINER="Kalamangga.Net R&D"
 #COPY sources.list /etc/apt/
 RUN apt-get update && \
     apt-get upgrade -y && \
