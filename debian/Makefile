@@ -1,4 +1,7 @@
-all: bookworm bullseye buster
+all: trixie bookworm bullseye
+
+trixie:
+	cd 13-trixie && $(MAKE)
 
 bookworm:
 	cd 12-bookworm && $(MAKE)
