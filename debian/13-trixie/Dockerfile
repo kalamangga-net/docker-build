@@ -4,6 +4,6 @@ LABEL MAINTAINER="Kalamangga.Net R&D"
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get clean -y
-RUN apt-get install -y nano && \
+    RUN apt-get install -y --force-yes nano sudo curl wget && \
     apt-get clean -y
 CMD ["/bin/bash"]
