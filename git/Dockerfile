@@ -1,4 +1,4 @@
-FROM kalamangga/debian:bookworm
+FROM kalamangga/debian:trixie
 LABEL MAINTAINER="Kalamangga.Net R&D"
 RUN apt-get update && \
     apt-get install -y --force-yes openssh-server git gitweb && \

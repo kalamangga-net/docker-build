@@ -1,4 +1,4 @@
-all: 0debian 1git 2nginx 3nmap
+all: 0debian 1git 2nginx 3nmap 4newt
 
 0debian:
 	cd debian && $(MAKE)
@@ -8,3 +8,5 @@ all: 0debian 1git 2nginx 3nmap
 	cd nginx && $(MAKE)
 3nmap:
 	cd nmap && $(MAKE)
+4newt:
+	cd newt && $(MAKE)

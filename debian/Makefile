@@ -1,4 +1,4 @@
-all: trixie bookworm bullseye
+all: trixie bookworm
 
 trixie:
 	cd 13-trixie && $(MAKE)
